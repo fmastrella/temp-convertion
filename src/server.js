@@ -28,6 +28,8 @@ app.get('/celsius/:valor/fahrenheit', (req, res) => {
     res.json({ "fahrenheit": fahrenheit, "maquina": os.hostname() });
 });
 
+// Some comment
+
 app.get('/', (req, res) => {
 
     res.render('index',{valorConvertido: ''});
